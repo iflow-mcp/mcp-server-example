@@ -1,5 +1,5 @@
 [project]
-name = "documentation"
+name = "iflow-mcp_mcp-server-example"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -13,3 +13,6 @@ dependencies = [
     "langchain-core>=0.1.0",
     "chromadb>=0.4.22",
 ]
+
+[project.scripts]
+mcp-server-example = "main:main"

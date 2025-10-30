@@ -72,5 +72,8 @@ async def get_docs(query: str, library: str):
   return text
 
 
-if __name__ == "__main__":
+def main():
     mcp.run(transport="stdio")
+
+if __name__ == "__main__":
+    main()
