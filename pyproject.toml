@@ -1,6 +1,6 @@
 [project]
 name = "iflow-mcp_mcp-server-example"
-version = "0.1.0"
+version = "0.1.1"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -12,7 +12,8 @@ dependencies = [
     "langchain-community>=0.1.0",
     "langchain-core>=0.1.0",
     "chromadb>=0.4.22",
+    "python-dotenv>=1.0.0",
 ]
 
 [project.scripts]
-mcp-server-example = "main:main"
+mcp-server-example = "iflow_mcp_mcp_server_example:main"
